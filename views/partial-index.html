@@ -1,0 +1,9 @@
+<section class='section'>
+    <ul class='level'>
+        ${trailsData.map(trail => `
+            <li style='width: 100%'>
+                <a href='./${trail.id}'>${trail.name}</a>
+            </li>
+        `).join('')}
+    </ul>
+</section>
